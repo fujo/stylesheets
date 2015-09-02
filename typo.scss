@@ -1,2 +1,4 @@
-h1 { font: 700 5em/150% trebuchet; }
-h2 { font: 700 4em/150% trebuchet; }
+$font : 'arial',sans-serif;
+
+h1 { font: 700 5em/150% $font; }
+h2 { font: 700 4em/150% $font; }
