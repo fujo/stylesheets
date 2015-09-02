@@ -16,7 +16,7 @@ $base-font-size:    1em;
 $base-line-height:  160%;
 
 // body typography
-body { font: normal $base-font-size / $base-line-height $font-base; color: $color-text; }
+body { font: normal 1em / 160% $font-base; color: $color-text; }
 
 // headings
 h1 { font: 700 5em/150% $font-headings; }
