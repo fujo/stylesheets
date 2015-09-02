@@ -1,2 +1,2 @@
 # stylesheets
-blop
+- typo.scss
