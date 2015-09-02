@@ -1,4 +1,35 @@
-$font : 'arial',sans-serif;
+//
+$PERFECT_FOURTH:    (4/3);
+$PERFECT_FIFTH:     (3/2);
+$GOLDEN_RATIO:      1.618;
 
-h1 { font: 700 5em/150% $font; }
-h2 { font: 700 4em/150% $font; }
+// vars
+$font-base :        "Georgia", "Times", serif !default;
+$font-headings :    "Helvetica Neue", "Helvetica", Arial, sans-serif !default;
+
+$color-base-text:   black;
+$color-headings:    blue;
+$color-links:       blue;
+$color-links-hover: green;
+
+// body typography
+body { font-family: $body-font-family; color: $color-text; }
+
+// headings
+h1 { font: 700 5em/150% $font-headings; }
+h2 { font: 700 4em/150% $font-headings; }
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+p {}
+
+a {}
+
+ul,ol {
+  
+  li { }
+  
+}
+
